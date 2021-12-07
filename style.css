@@ -1,0 +1,56 @@
+
+.box-1{
+    height: 80vh;
+    background-color: #F0F2F5;
+}
+
+.box-2{
+    height: 100%;
+}
+
+.form-container{
+    height: 456px;
+    width: 396px;
+}
+
+.loginForm{
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+@media (max-width: 992px) { 
+  .col{
+      display: flex;
+      justify-content: center;
+  }
+
+  .col-lg-8{
+      display: flex;
+      justify-content: center;
+  }
+
+  .row{
+      display: flex;
+      justify-content: center;
+  }
+
+  p{
+      text-align: center;
+  }
+ }
